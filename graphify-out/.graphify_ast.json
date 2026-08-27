@@ -1,0 +1,4572 @@
+{
+  "nodes": [
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "label": "core.py",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "label": "BM25",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L96",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L99",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_tokenize",
+      "label": ".tokenize()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L109",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_fit",
+      "label": ".fit()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L114",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_score",
+      "label": ".score()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L133",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_load_csv",
+      "label": "_load_csv()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L159",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "label": "_search_csv()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L165",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_detect_domain",
+      "label": "detect_domain()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L190",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "label": "search()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L212",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_search_stack",
+      "label": "search_stack()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L234",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_97",
+      "label": "BM25 ranking algorithm for text search",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L97",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_110",
+      "label": "Lowercase, split, remove punctuation, filter short words",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L110",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_115",
+      "label": "Build BM25 index from documents",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L115",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_134",
+      "label": "Score all documents against query",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L134",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_160",
+      "label": "Load CSV and return list of dicts",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L160",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_166",
+      "label": "Core search function using BM25",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L166",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_191",
+      "label": "Auto-detect the most relevant domain from query",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L191",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_213",
+      "label": "Main search function with auto-domain detection",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L213",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_235",
+      "label": "Search stack-specific guidelines",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L235",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "label": "design_system.py",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "label": "DesignSystemGenerator",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L37",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L40",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_reasoning",
+      "label": "._load_reasoning()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L43",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "label": "._multi_domain_search()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L51",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_find_reasoning_rule",
+      "label": "._find_reasoning_rule()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L64",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "label": "._apply_reasoning()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L88",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_select_best_match",
+      "label": "._select_best_match()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L122",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
+      "label": "._extract_results()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L159",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "label": ".generate()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L163",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_ascii_box",
+      "label": "format_ascii_box()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L242",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
+      "label": "format_markdown()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L367",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "label": "generate_design_system()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L462",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "label": "persist_design_system()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L491",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_master_md",
+      "label": "format_master_md()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L542",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "label": "format_page_override_md()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L805",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "label": "_generate_intelligent_overrides()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L914",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_detect_page_type",
+      "label": "_detect_page_type()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L1020",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_38",
+      "label": "Generates design system recommendations from aggregated searches.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_44",
+      "label": "Load reasoning rules from CSV.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_52",
+      "label": "Execute searches across multiple domains.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_65",
+      "label": "Find matching reasoning rule for a category.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_89",
+      "label": "Apply reasoning rules to search results.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_123",
+      "label": "Select best matching result based on priority keywords.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L123",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_160",
+      "label": "Extract results list from search result dict.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L160",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_164",
+      "label": "Generate complete design system recommendation.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L164",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_243",
+      "label": "Format design system as ASCII box with emojis (MCP-style).",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L243",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_368",
+      "label": "Format design system as markdown.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L368",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_464",
+      "label": "Main entry point for design system generation. Args: query: Search query (e.g.,…",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L464",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_492",
+      "label": "Persist design system to design-system/<project>/ folder using Master +…",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L492",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_543",
+      "label": "Format design system as MASTER.md with hierarchical override logic.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L543",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_806",
+      "label": "Format a page-specific override file with intelligent AI-generated content.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L806",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_915",
+      "label": "Generate intelligent overrides based on page type using layered search. Uses…",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L915",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_1021",
+      "label": "Detect page type from context and search results.",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L1021",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "label": "search.py",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_search_format_output",
+      "label": "format_output()",
+      "file_type": "code",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_search_rationale_31",
+      "label": "Format results for Claude consumption (token-optimized)",
+      "file_type": "rationale",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "oxlintrc",
+      "label": ".oxlintrc.json",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "oxlintrc_schema",
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "oxlintrc_plugins",
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "file_type": "concept",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_oxc",
+      "label": "oxc",
+      "file_type": "concept",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "oxlintrc_rules",
+      "label": "rules",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "oxlintrc_rules_react_rules_of_hooks",
+      "label": "react/rules-of-hooks",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "oxlintrc_rules_react_only_export_components",
+      "label": "react/only-export-components",
+      "file_type": "code",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_warn",
+      "label": "warn",
+      "file_type": "concept",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_lint",
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_scripts_preview",
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_fontsource_cormorant_garamond",
+      "label": "@fontsource/cormorant-garamond",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "fontsource_cormorant_garamond",
+      "label": "@fontsource/cormorant-garamond",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_fontsource_manrope",
+      "label": "@fontsource/manrope",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "fontsource_manrope",
+      "label": "@fontsource/manrope",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_fontsource_outfit",
+      "label": "@fontsource/outfit",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "fontsource_outfit",
+      "label": "@fontsource/outfit",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_gsap_react",
+      "label": "@gsap/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "gsap_react",
+      "label": "@gsap/react",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_phosphor_icons_react",
+      "label": "@phosphor-icons/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "phosphor_icons_react",
+      "label": "@phosphor-icons/react",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_gsap",
+      "label": "gsap",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "gsap",
+      "label": "gsap",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_react",
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "react",
+      "label": "react",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_react_dom",
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "react_dom",
+      "label": "react-dom",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_dependencies_tailwindcss",
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "tailwindcss",
+      "label": "tailwindcss",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies_types_react",
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "types_react",
+      "label": "@types/react",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies_types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies_oxlint",
+      "label": "oxlint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "oxlint",
+      "label": "oxlint",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "package_devdependencies_vite",
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "vite",
+      "label": "vite",
+      "file_type": "concept",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app",
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_about",
+      "label": "About.jsx",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_about_roles",
+      "label": "roles",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_about_brands",
+      "label": "brands",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_about_education",
+      "label": "education",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_about_about",
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L28",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_button",
+      "label": "Button.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_button_shell",
+      "label": "shell",
+      "file_type": "code",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_button_circle",
+      "label": "circle",
+      "file_type": "code",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_button_button",
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_clients",
+      "label": "Clients.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_clients_clients",
+      "label": "clients",
+      "file_type": "code",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L3",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_footer",
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_footer_sociallist",
+      "label": "socialList",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_footer_nav",
+      "label": "nav",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_footer_legal",
+      "label": "legal",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_footer_footer",
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L30",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_hero",
+      "label": "Hero.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_hero_stats",
+      "label": "stats",
+      "file_type": "code",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_hero_hero",
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_logo",
+      "label": "Logo.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Logo.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_logo_logo",
+      "label": "Logo()",
+      "file_type": "code",
+      "source_file": "src/components/Logo.jsx",
+      "source_location": "L1",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_masterclass",
+      "label": "Masterclass.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_masterclass_pillars",
+      "label": "pillars",
+      "file_type": "code",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_masterclass_fitfor",
+      "label": "fitFor",
+      "file_type": "code",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_masterclass_masterclass",
+      "label": "Masterclass()",
+      "file_type": "code",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L37",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_nav",
+      "label": "Nav.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_nav_links",
+      "label": "links",
+      "file_type": "code",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_nav_sectionids",
+      "label": "sectionIds",
+      "file_type": "code",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_nav_nav",
+      "label": "Nav()",
+      "file_type": "code",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_private",
+      "label": "Private.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_private_fitfor",
+      "label": "fitFor",
+      "file_type": "code",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_private_private",
+      "label": "Private()",
+      "file_type": "code",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_programs",
+      "label": "Programs.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_programs_options",
+      "label": "options",
+      "file_type": "code",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_programs_programs",
+      "label": "Programs()",
+      "file_type": "code",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_reveal",
+      "label": "Reveal.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_reveal_reveal",
+      "label": "Reveal()",
+      "file_type": "code",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L5",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_speaker",
+      "label": "Speaker.jsx",
+      "file_type": "code",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_speaker_kegiatan",
+      "label": "kegiatan",
+      "file_type": "code",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_speaker_themes",
+      "label": "themes",
+      "file_type": "code",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_speaker_speaker",
+      "label": "Speaker()",
+      "file_type": "code",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_config",
+      "label": "config.js",
+      "file_type": "code",
+      "source_file": "src/lib/config.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_config_whatsapp_number",
+      "label": "WHATSAPP_NUMBER",
+      "file_type": "code",
+      "source_file": "src/lib/config.js",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_config_walink",
+      "label": "waLink()",
+      "file_type": "code",
+      "source_file": "src/lib/config.js",
+      "source_location": "L5",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_config_wa_messages",
+      "label": "WA_MESSAGES",
+      "file_type": "code",
+      "source_file": "src/lib/config.js",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_config_socials",
+      "label": "SOCIALS",
+      "file_type": "code",
+      "source_file": "src/lib/config.js",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_config_rationale_2",
+      "label": "TODO: ganti nomor WhatsApp dengan nomor asli (format internasional tanpa + dan…",
+      "file_type": "rationale",
+      "source_file": "src/lib/config.js",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_config_rationale_19",
+      "label": "TODO: ganti URL sosial media dengan akun asli.",
+      "file_type": "rationale",
+      "source_file": "src/lib/config.js",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_gsap",
+      "label": "gsap.js",
+      "file_type": "code",
+      "source_file": "src/lib/gsap.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_useprefersreducedmotion",
+      "label": "usePrefersReducedMotion.js",
+      "file_type": "code",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_useprefersreducedmotion_readpreference",
+      "label": "readPreference()",
+      "file_type": "code",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L3",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "label": "usePrefersReducedMotion()",
+      "file_type": "code",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "src_main",
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "vite_config",
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "vite.config.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_components_clients_clients",
+      "label": "Clients",
+      "file_type": "code",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L21",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "csv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "math",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "collections",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_tokenize",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_fit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_score",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_load_csv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_detect_domain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L212",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L234",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_fit",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_tokenize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_score",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_tokenize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_load_csv",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L170",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_detect_domain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L223",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_search_stack",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L244",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_97",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_110",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_tokenize",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_115",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_fit",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_134",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_score",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_160",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_load_csv",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_166",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L166",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_191",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_detect_domain",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L191",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_213",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_235",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search_stack",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
+      "source_location": "L235",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "csv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_reasoning",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_find_reasoning_rule",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_select_best_match",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_ascii_box",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L242",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L367",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L462",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L491",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_master_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L542",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L805",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L914",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_detect_page_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L1020",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L1057",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_init",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_reasoning",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_find_reasoning_rule",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L173",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L177",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_select_best_match",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L478",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L483",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L486",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_ascii_box",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L487",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_master_md",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L522",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L530",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L812",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_detect_page_type",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L938",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_38",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_44",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_reasoning",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_52",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_65",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_find_reasoning_rule",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_89",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_123",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_select_best_match",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_160",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_164",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_243",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_ascii_box",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L243",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_368",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L368",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_464",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L464",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_492",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L492",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_543",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_master_md",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L543",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_806",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L806",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_915",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L915",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_1021",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_detect_page_type",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L1021",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "io",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "design_system",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_search_format_output",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search_rationale_31",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_search_format_output",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc",
+      "target": "oxlintrc_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc",
+      "target": "oxlintrc_plugins",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc_plugins",
+      "target": "ref_react",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc_plugins",
+      "target": "ref_oxc",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc",
+      "target": "oxlintrc_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc_rules",
+      "target": "oxlintrc_rules_react_rules_of_hooks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc_rules",
+      "target": "oxlintrc_rules_react_only_export_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "oxlintrc_rules_react_only_export_components",
+      "target": "ref_warn",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_lint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_scripts",
+      "target": "package_scripts_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_fontsource_cormorant_garamond",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_fontsource_cormorant_garamond",
+      "target": "fontsource_cormorant_garamond",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_fontsource_manrope",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_fontsource_manrope",
+      "target": "fontsource_manrope",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_fontsource_outfit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_fontsource_outfit",
+      "target": "fontsource_outfit",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_gsap_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_gsap_react",
+      "target": "gsap_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_phosphor_icons_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_phosphor_icons_react",
+      "target": "phosphor_icons_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_tailwindcss_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_tailwindcss_vite",
+      "target": "tailwindcss_vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_gsap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_gsap",
+      "target": "gsap",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_react",
+      "target": "react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_react_dom",
+      "target": "react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies",
+      "target": "package_dependencies_tailwindcss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_dependencies_tailwindcss",
+      "target": "tailwindcss",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package",
+      "target": "package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies_types_react",
+      "target": "types_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies_types_react_dom",
+      "target": "types_react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitejs_plugin_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies_vitejs_plugin_react",
+      "target": "vitejs_plugin_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_oxlint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies_oxlint",
+      "target": "oxlint",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "package_devdependencies_vite",
+      "target": "vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_nav",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_hero",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_programs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_about",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_masterclass",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_private",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_speaker",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_clients",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_footer",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "ref_phosphor_icons_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_reveal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_lib_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_lib_config_socials",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_about_roles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_about_brands",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_about_education",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_about_about",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_button",
+      "target": "ref_phosphor_icons_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_button",
+      "target": "src_components_button_shell",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_button",
+      "target": "src_components_button_circle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_button",
+      "target": "src_components_button_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Button.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_clients",
+      "target": "src_components_reveal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_clients",
+      "target": "src_components_clients_clients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_clients",
+      "target": "src_components_clients_clients",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "ref_phosphor_icons_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_reveal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_logo",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_lib_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_lib_config_walink",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_lib_config_wa_messages",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_lib_config_socials",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_footer_sociallist",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_footer_nav",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_footer_legal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_footer_footer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_gsap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_gsap_gsap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_gsap_usegsap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_useprefersreducedmotion",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_config_walink",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_config_wa_messages",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_components_hero_stats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_components_hero_hero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_logo",
+      "target": "src_components_logo_logo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Logo.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "ref_phosphor_icons_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_components_reveal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_lib_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_lib_config_walink",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_lib_config_wa_messages",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_components_masterclass_pillars",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_components_masterclass_fitfor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_components_masterclass_masterclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav",
+      "target": "src_components_logo",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav",
+      "target": "src_components_nav_links",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav",
+      "target": "src_components_nav_sectionids",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav",
+      "target": "src_components_nav_nav",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "ref_phosphor_icons_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_components_reveal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_lib_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_lib_config_walink",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_lib_config_wa_messages",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_components_private_fitfor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_components_private_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_programs",
+      "target": "ref_phosphor_icons_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_programs",
+      "target": "src_components_reveal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_programs",
+      "target": "src_components_programs_options",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_programs",
+      "target": "src_components_programs_programs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal",
+      "target": "src_lib_gsap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal",
+      "target": "src_lib_gsap_gsap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal",
+      "target": "src_lib_gsap_usegsap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal",
+      "target": "src_lib_useprefersreducedmotion",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal",
+      "target": "src_components_reveal_reveal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_components_reveal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_components_button",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_lib_config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_lib_config_walink",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_lib_config_wa_messages",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_components_speaker_kegiatan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_components_speaker_themes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_components_speaker_speaker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_config",
+      "target": "src_lib_config_whatsapp_number",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/config.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_config",
+      "target": "src_lib_config_walink",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/config.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_config",
+      "target": "src_lib_config_wa_messages",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/config.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_config",
+      "target": "src_lib_config_socials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/config.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_config_rationale_2",
+      "target": "src_lib_config",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/config.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_config_rationale_19",
+      "target": "src_lib_config",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/config.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_gsap",
+      "target": "ref_gsap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/gsap.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_gsap",
+      "target": "ref_gsap_scrolltrigger",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/gsap.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_gsap",
+      "target": "ref_gsap_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/gsap.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_useprefersreducedmotion",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_useprefersreducedmotion",
+      "target": "src_lib_useprefersreducedmotion_readpreference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_useprefersreducedmotion",
+      "target": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "target": "src_lib_useprefersreducedmotion_readpreference",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_react_dom_client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_fontsource_cormorant_garamond_latin_400_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_fontsource_cormorant_garamond_latin_400_italic_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_fontsource_cormorant_garamond_latin_500_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_fontsource_cormorant_garamond_latin_500_italic_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_fontsource_outfit_latin_400_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_fontsource_outfit_latin_500_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "ref_fontsource_outfit_latin_600_css",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "src_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "vite_config",
+      "target": "ref_vitejs_plugin_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "vite_config",
+      "target": "ref_tailwindcss_vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "vite_config",
+      "target": "ref_vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "vite.config.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_nav_nav",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_hero_hero",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_programs_programs",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_about_about",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_masterclass_masterclass",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_private_private",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_speaker_speaker",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_clients_clients",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_footer_footer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_reveal_reveal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_about",
+      "target": "src_components_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_clients",
+      "target": "src_components_reveal_reveal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_reveal_reveal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer",
+      "target": "src_components_logo_logo",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_components_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_components_reveal_reveal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass",
+      "target": "src_components_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_nav",
+      "target": "src_components_logo_logo",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_components_reveal_reveal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private",
+      "target": "src_components_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_programs",
+      "target": "src_components_reveal_reveal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal",
+      "target": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_components_reveal_reveal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker",
+      "target": "src_components_button_button",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_main",
+      "target": "src_app_app",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search_stack",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/search.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L928",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "target": "opencode_skills_ui_ux_pro_max_scripts_core_search",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L166",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_footer_footer",
+      "target": "src_lib_config_walink",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero_hero",
+      "target": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_hero_hero",
+      "target": "src_lib_config_walink",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_masterclass_masterclass",
+      "target": "src_lib_config_walink",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Masterclass.jsx",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_private_private",
+      "target": "src_lib_config_walink",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Private.jsx",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_reveal_reveal",
+      "target": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "src_components_speaker_speaker",
+      "target": "src_lib_config_walink",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Speaker.jsx",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "failed_sources": []
+}

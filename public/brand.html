@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coach Joko — Brand Guidelines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --night: #0c0a08;
+        --char: #14110e;
+        --ash: #1b1713;
+        --cream: #f4efe6;
+        --mist: #a49b8e;
+        --gold: #c9a96a;
+        --line: rgba(244, 239, 230, 0.12);
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html { scroll-behavior: smooth; }
+      body {
+        background: var(--night);
+        color: var(--cream);
+        font-family: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        line-height: 1.6;
+      }
+      .display { font-family: 'Cormorant Garamond', Georgia, serif; }
+      .sans { font-family: 'Outfit', sans-serif; }
+      .wrap { max-width: 1120px; margin: 0 auto; padding: 0 40px; }
+
+      .label {
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+        font-weight: 500;
+      }
+      section { padding: 96px 0; border-top: 1px solid var(--line); }
+
+      /* Cover */
+      .cover { padding: 140px 0 120px; text-align: center; }
+      .cover svg { width: 96px; height: 96px; }
+      .cover h1 {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-size: clamp(3rem, 7vw, 5.5rem);
+        font-weight: 500;
+        line-height: 1.05;
+        letter-spacing: -0.01em;
+        margin-top: 28px;
+      }
+      .cover .tagline {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-style: italic;
+        font-size: 1.5rem;
+        color: var(--gold);
+        margin-top: 14px;
+      }
+      .cover .meta { margin-top: 40px; font-size: 12px; color: var(--mist); }
+
+      /* Headers */
+      .section-head { margin-bottom: 48px; }
+      .section-head h2 {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-size: 2.5rem;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+      }
+
+      /* Logo */
+      .logo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+      .panel {
+        background: var(--char);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 280px;
+      }
+      .panel svg { width: 120px; height: 120px; }
+      .panel .wordmark {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: 16px;
+      }
+      .panel .role { font-size: 12px; color: var(--mist); letter-spacing: 0.14em; text-transform: uppercase; margin-top: 6px; }
+      .panel p.note { font-size: 14px; color: var(--mist); margin-top: 16px; text-align: center; max-width: 34ch; }
+
+      /* Color */
+      .swatches { display: grid; grid-template-columns: repeat(7, 1fr); gap: 14px; }
+      .swatch { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+      .swatch .chip { height: 110px; }
+      .swatch .info { padding: 12px; font-size: 12px; }
+      .swatch .info .name { color: var(--cream); font-weight: 500; }
+      .swatch .info .hex { color: var(--mist); font-family: monospace; font-size: 11px; }
+
+      /* Typography */
+      .type-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+      .type-panel { background: var(--char); border: 1px solid var(--line); border-radius: 20px; padding: 48px; }
+      .type-panel .name { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
+      .type-panel .aa { font-size: 7rem; line-height: 1; margin: 16px 0; }
+      .type-panel.serif .aa { font-family: 'Cormorant Garamond', Georgia, serif; }
+      .type-panel .row { border-top: 1px solid var(--line); padding: 12px 0; font-size: 14px; color: var(--mist); }
+      .type-panel .row b { color: var(--cream); font-weight: 600; }
+
+      /* Motif */
+      .motif-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+      .motif { background: var(--char); border: 1px solid var(--line); border-radius: 20px; padding: 32px; text-align: center; }
+      .motif .demo { height: 90px; display: flex; align-items: center; justify-content: center; }
+      .motif .cap { font-size: 13px; color: var(--mist); margin-top: 12px; }
+      .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--gold); display: inline-block; }
+
+      /* Applications */
+      .app-stack { display: flex; flex-direction: column; gap: 24px; }
+      .app { background: var(--char); border: 1px solid var(--line); border-radius: 20px; padding: 28px 32px; }
+      .nav-mock { display: flex; align-items: center; justify-content: space-between; }
+      .nav-mock .brand { display: flex; align-items: center; gap: 10px; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; }
+      .nav-mock .brand svg { width: 26px; height: 26px; }
+      .nav-mock ul { display: flex; gap: 22px; list-style: none; font-size: 13px; color: var(--mist); }
+      .pill {
+        display: inline-flex; align-items: center; gap: 10px;
+        background: var(--cream); color: var(--night);
+        border-radius: 999px; padding: 8px 12px 8px 20px; font-size: 13px; font-weight: 600;
+      }
+      .pill .ic { width: 24px; height: 24px; border-radius: 50%; background: rgba(12,10,8,0.1); display: grid; place-items: center; }
+      .btn-row { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+      .btn-gold { background: var(--gold); color: var(--night); }
+      .btn-ghost { background: transparent; color: var(--cream); border: 1px solid var(--line); }
+      .card-mock { background: var(--ash); border: 1px solid var(--line); border-radius: 16px; padding: 28px; max-width: 420px; }
+      .card-mock .q { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 500; line-height: 1.3; }
+      .card-mock .who { margin-top: 20px; display: flex; align-items: center; gap: 12px; font-size: 13px; }
+
+      /* Voice */
+      .voice-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+      .voice { background: var(--char); border: 1px solid var(--line); border-radius: 20px; padding: 32px; }
+      .voice h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 500; margin-bottom: 10px; }
+      .voice p { font-size: 14px; color: var(--mist); }
+
+      footer { padding: 48px 0 72px; border-top: 1px solid var(--line); font-size: 12px; color: var(--mist); display: flex; justify-content: space-between; }
+
+      @media (max-width: 760px) {
+        .wrap { padding: 0 20px; }
+        .logo-grid, .type-grid, .motif-grid, .voice-grid { grid-template-columns: 1fr; }
+        .swatches { grid-template-columns: repeat(3, 1fr); }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Cover -->
+    <header class="cover wrap">
+      <svg viewBox="0 0 64 64" fill="none">
+        <path d="M15 49 L32 15 L49 49" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="32" cy="8" r="3.2" fill="#C9A96A"/>
+      </svg>
+      <h1>Coach Joko</h1>
+      <p class="tagline">Menumbuhkan Bisnis. Menguatkan Sistem. Membangun Superteam.</p>
+      <p class="meta">BRAND GUIDELINES · 2026</p>
+    </header>
+
+    <!-- Logo -->
+    <section class="wrap">
+      <div class="section-head">
+        <p class="label">Logo</p>
+        <h2>Mark &amp; Makna</h2>
+      </div>
+      <div class="logo-grid">
+        <div class="panel">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M15 49 L32 15 L49 49" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M23.5 37 L40.5 37" stroke="#F4EFE6" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="32" cy="8" r="3.2" fill="#C9A96A"/>
+          </svg>
+          <p class="note">Puncak adalah pertumbuhan bisnis; titik emas di atasnya adalah <em>clarity point</em> — arah yang jelas menuntun setiap langkah.</p>
+        </div>
+        <div class="panel">
+          <span class="wordmark">Coach Joko</span>
+          <span class="role">Business Coach & Mentor</span>
+          <p class="note">Wordmark dalam Cormorant Garamond. Emblem selalu disandingkan dengan wordmark pada pengenalan pertama.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Color -->
+    <section class="wrap">
+      <div class="section-head">
+        <p class="label">Warna</p>
+        <h2>Satu aksen, netral hangat</h2>
+      </div>
+      <div class="swatches">
+        <div class="swatch"><div class="chip" style="background:#0C0A08"></div><div class="info"><div class="name">Night</div><div class="hex">#0C0A08</div></div></div>
+        <div class="swatch"><div class="chip" style="background:#14110E"></div><div class="info"><div class="name">Char</div><div class="hex">#14110E</div></div></div>
+        <div class="swatch"><div class="chip" style="background:#1B1713"></div><div class="info"><div class="name">Ash</div><div class="hex">#1B1713</div></div></div>
+        <div class="swatch"><div class="chip" style="background:#F4EFE6"></div><div class="info"><div class="name">Cream</div><div class="hex">#F4EFE6</div></div></div>
+        <div class="swatch"><div class="chip" style="background:#A49B8E"></div><div class="info"><div class="name">Mist</div><div class="hex">#A49B8E</div></div></div>
+        <div class="swatch"><div class="chip" style="background:#C9A96A"></div><div class="info"><div class="name">Gold</div><div class="hex">#C9A96A</div></div></div>
+        <div class="swatch"><div class="chip" style="background:#1B1713; display:grid; place-items:center"><span style="width:60%; height:1px; background:rgba(244,239,230,0.3)"></span></div><div class="info"><div class="name">Line</div><div class="hex">12% cream</div></div></div>
+      </div>
+    </section>
+
+    <!-- Typography -->
+    <section class="wrap">
+      <div class="section-head">
+        <p class="label">Tipografi</p>
+        <h2>Serif untuk suara, sans untuk struktur</h2>
+      </div>
+      <div class="type-grid">
+        <div class="type-panel serif">
+          <span class="name">Display · Cormorant Garamond</span>
+          <div class="aa">Aa</div>
+          <div class="row"><b>Regular 400</b> — Menumbuhkan Bisnis. Menguatkan Sistem.</div>
+          <div class="row"><b>Medium 500</b> — Menumbuhkan Bisnis. Menguatkan Sistem.</div>
+          <div class="row"><i style="color:var(--gold)"><b>Italic</b> — Membangun Superteam.</i></div>
+        </div>
+        <div class="type-panel">
+          <span class="name">Sans · Outfit</span>
+          <div class="aa" style="font-family:'Outfit',sans-serif">Aa</div>
+          <div class="row"><b>Regular 400</b> — Saya mendampingi para pemimpin.</div>
+          <div class="row"><b>Medium 500</b> — Saya mendampingi para pemimpin.</div>
+          <div class="row"><b>Semibold 600</b> — Saya mendampingi para pemimpin.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Motif -->
+    <section class="wrap">
+      <div class="section-head">
+        <p class="label">Motif Tanda Tangan</p>
+        <h2>The Clarity Point</h2>
+      </div>
+      <div class="motif-grid">
+        <div class="motif">
+          <div class="demo"><span class="dot"></span></div>
+          <p class="cap">Bintang utara — penanda arah pada logo</p>
+        </div>
+        <div class="motif">
+          <div class="demo" style="gap:20px"><span style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;color:rgba(244,239,230,0.6)">Nusantara Group</span><span class="dot"></span><span style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;color:rgba(244,239,230,0.6)">Karya Bersama</span></div>
+          <p class="cap">Pemisah pada marquee klien</p>
+        </div>
+        <div class="motif">
+          <div class="demo"><span style="width:26px;height:26px;border-radius:50%;border:1px solid rgba(201,169,106,0.4);background:rgba(201,169,106,0.15);display:grid;place-items:center;color:var(--gold);font-size:14px">✓</span></div>
+          <p class="cap">Fokus pada ikon checklist</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Applications -->
+    <section class="wrap">
+      <div class="section-head">
+        <p class="label">Aplikasi</p>
+        <h2>Identitas dalam produk</h2>
+      </div>
+      <div class="app-stack">
+        <div class="app nav-mock">
+          <div class="brand">
+            <svg viewBox="0 0 64 64" fill="none">
+              <path d="M15 49 L32 15 L49 49" stroke="#F4EFE6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="32" cy="8" r="3.2" fill="#C9A96A"/>
+            </svg>
+            Coach Joko
+          </div>
+          <ul>
+            <li>Tentang</li><li>Program</li><li>Privat</li><li>Pembicara</li>
+          </ul>
+          <span class="pill">Jadwalkan Konsultasi <span class="ic">↗</span></span>
+        </div>
+        <div class="app">
+          <p class="label" style="margin-bottom:16px">Tombol</p>
+          <div class="btn-row">
+            <span class="pill">Jadwalkan Konsultasi <span class="ic">↗</span></span>
+            <span class="pill btn-gold">Undang Sebagai Pembicara <span class="ic">↗</span></span>
+            <span class="pill btn-ghost">Kenali Saya <span class="ic">↗</span></span>
+          </div>
+        </div>
+        <div class="app">
+          <p class="label" style="margin-bottom:16px">Kartu testimoni</p>
+          <div class="card-mock">
+            <div class="q">&ldquo;Coach Joko membantu kami melihat strategi bisnis dengan mata yang jernih.&rdquo;</div>
+            <div class="who"><span style="width:40px;height:40px;border-radius:50%;background:var(--gold);display:grid;place-items:center;color:var(--night);font-weight:600">R</span><span>Renata Kusuma <span style="color:var(--mist)">· CEO, Nusantara Group</span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Voice -->
+    <section class="wrap">
+      <div class="section-head">
+        <p class="label">Suara</p>
+        <h2>Tenang, langsung, aktif</h2>
+      </div>
+      <div class="voice-grid">
+        <div class="voice"><h3>Tenang</h3><p>Tanpa teriakan, tanpa tanda seru. Keyakinan datang dari kejelasan, bukan volume.</p></div>
+        <div class="voice"><h3>Langsung</h3><p>Bahasa Indonesia aktif dan spesifik. Kalimat pendek yang bisa dieksekusi.</p></div>
+        <div class="voice"><h3>Manusiawi</h3><p>Berbicara pada pemimpin sebagai orang, bukan sebagai jabatan.</p></div>
+      </div>
+    </section>
+
+    <footer class="wrap">
+      <span>© 2026 Joko Wardiyanto</span>
+      <span>Brand Guidelines v1.0 · Yogyakarta</span>
+    </footer>
+  </body>
+</html>

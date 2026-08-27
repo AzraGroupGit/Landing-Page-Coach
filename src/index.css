@@ -1,0 +1,141 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+
+  /* Dark Cinematic Luxury palette — warm near-black + champagne gold */
+  --color-night: #0c0a08;
+  --color-char: #14110e;
+  --color-ash: #1b1713;
+  --color-cream: #f4efe6;
+  --color-mist: #a49b8e;
+  --color-gold: #c9a96a;
+  --color-line: rgba(244, 239, 230, 0.12);
+
+  --ease-lux: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-night);
+    color: var(--color-cream);
+    font-family: var(--font-sans);
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background-color: var(--color-gold);
+    color: var(--color-night);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer utilities {
+  /* Skip-to-content link — hidden until keyboard focus */
+  .skip-link {
+    position: fixed;
+    top: 0.75rem;
+    left: 0.75rem;
+    z-index: 100;
+    transform: translateY(-200%);
+    border-radius: 9999px;
+    background-color: var(--color-gold);
+    color: var(--color-night);
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+  }
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+
+  /* Cinematic hero vignette — token-driven, no hard-coded hex */
+  .hero-wash {
+    background-image: radial-gradient(
+      120% 95% at 50% 8%,
+      color-mix(in srgb, var(--color-night) 15%, transparent) 0%,
+      color-mix(in srgb, var(--color-night) 95%, transparent) 100%
+    );
+  }
+
+  /* Subtle film-grain — fixed overlay only, never on scrolling content */
+  .grain {
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    pointer-events: none;
+    opacity: 0.06;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay;
+  }
+
+  /* Subtle diagonal hairline texture for ambient backgrounds */
+  .diagonal-lines {
+    background-image: repeating-linear-gradient(
+      135deg,
+      rgba(244, 239, 230, 0.03) 0px,
+      rgba(244, 239, 230, 0.03) 1px,
+      transparent 1px,
+      transparent 14px
+    );
+  }
+
+  /* Hide scrollbars on horizontal galleries */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Infinite marquee */
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .animate-marquee {
+    animation: marquee 42s linear infinite;
+  }
+  .marquee-paused:hover .animate-marquee {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee {
+      animation: none;
+    }
+  }
+}
