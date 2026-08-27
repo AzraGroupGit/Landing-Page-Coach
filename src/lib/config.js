@@ -1,6 +1,6 @@
 // Konfigurasi konten & tautan global.
 // TODO: ganti nomor WhatsApp dengan nomor asli (format internasional tanpa + dan tanpa spasi).
-export const WHATSAPP_NUMBER = "62895231666799";
+export const WHATSAPP_NUMBER = "6289523166799";
 
 export const waLink = (message) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
