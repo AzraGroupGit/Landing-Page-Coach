@@ -34,6 +34,18 @@ const fitFor = [
   'Ingin membangun bisnis yang bertumbuh secara sehat dan berkelanjutan.',
 ]
 
+const kelas = [
+  'kelas-1',
+  'kelas-2',
+  'kelas-3',
+  'kelas-4',
+  'kelas-5',
+  'kelas-9',
+  'kelas-7',
+  'kelas-8',
+  'kelas-6',
+]
+
 export default function Masterclass() {
   return (
     <section id="masterclass" className="bg-char px-6 py-32 md:py-48">
@@ -102,6 +114,32 @@ export default function Masterclass() {
               </li>
             ))}
           </ul>
+        </Reveal>
+
+        <Reveal delay={0.1}>
+          <div className="mt-20">
+            <h3 className="font-display text-2xl font-medium tracking-tight text-cream">
+              Dokumentasi Kelas
+            </h3>
+            <p className="mt-3 max-w-[56ch] text-[15px] leading-relaxed text-mist">
+              Suasana kelas dan pendampingan Coach Joko di berbagai daerah.
+            </p>
+            <div className="mt-8 columns-2 gap-4 md:columns-3">
+              {kelas.map((k) => (
+                <div
+                  key={k}
+                  className="mb-4 break-inside-avoid overflow-hidden rounded-2xl ring-1 ring-line"
+                >
+                  <img
+                    src={`/kelas/${k}.webp`}
+                    alt="Dokumentasi kelas coaching Coach Joko Wardiyanto"
+                    loading="lazy"
+                    className="w-full transition-transform duration-500 hover:scale-[1.03]"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
         </Reveal>
 
         <Reveal delay={0.1}>

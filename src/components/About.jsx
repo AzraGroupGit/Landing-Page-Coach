@@ -39,7 +39,7 @@ export default function About() {
         </Reveal>
 
         <div className="mt-14 grid gap-14 lg:grid-cols-12">
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-7 lg:order-2">
             <Reveal>
               <p className="max-w-[58ch] text-[15px] leading-relaxed text-mist">
                 Saya <span className="text-cream">Joko Wardiyanto, S.E., M.Sc.</span>,
@@ -69,7 +69,7 @@ export default function About() {
             </Reveal>
           </div>
 
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 lg:order-1">
             <Reveal delay={0.1}>
               <div className="relative">
                 <div className="absolute -inset-3 rounded-[2.5rem] border border-gold/20" />
@@ -95,6 +95,26 @@ export default function About() {
         <div className="mt-20">
           <Reveal>
             <h3 className="font-display text-2xl font-medium tracking-tight text-cream">
+              Dampak Sosial
+            </h3>
+            <p className="mt-3 max-w-[52ch] text-[15px] leading-relaxed text-mist">
+              Sebagai Pembina Yayasan Riyadhul Jannah Indonesia, Coach Joko turut
+              menyalurkan dampak bagi masyarakat sekitar.
+            </p>
+            <div className="mt-8 overflow-hidden rounded-[2rem] ring-1 ring-line">
+              <img
+                src="/yayasan.webp"
+                alt="Infografis Yayasan Riyadhul Jannah Indonesia"
+                loading="lazy"
+                className="aspect-[16/9] w-full object-cover"
+              />
+            </div>
+          </Reveal>
+        </div>
+
+        <div className="mt-20">
+          <Reveal>
+            <h3 className="font-display text-2xl font-medium tracking-tight text-cream">
               Bisnis yang Dikelola Coach Joko
             </h3>
             <p className="mt-3 max-w-[52ch] text-[15px] leading-relaxed text-mist">
@@ -105,20 +125,38 @@ export default function About() {
               {brands.map((b) => (
                 <li
                   key={b.name}
-                  className="flex flex-col items-center justify-center gap-4 rounded-2xl bg-cream p-7 ring-1 ring-gold/30 transition-colors duration-300 hover:ring-gold/60"
+                  className="flex flex-col items-center justify-center gap-4 rounded-2xl bg-char p-7 ring-1 ring-gold/20 transition-colors duration-300 hover:ring-gold/50"
                 >
                   <img
                     src={`/brand-bisnis/${b.logo}.png`}
                     alt={b.name}
                     loading="lazy"
-                    className="h-20 w-full object-contain sm:h-24"
+                    className="h-24 w-full object-contain sm:h-28"
                   />
-                  <span className="text-center text-[13px] font-semibold leading-snug text-night">
+                  <span className="text-center text-[13px] font-semibold leading-snug text-cream">
                     {b.name}
                   </span>
                 </li>
               ))}
             </ul>
+            <Reveal delay={0.1}>
+              <div className="mt-8 overflow-hidden rounded-[2rem] ring-1 ring-line">
+                <img
+                  src="/superteam.webp"
+                  alt="Superteam PT Kotagede Jewellery Group"
+                  loading="lazy"
+                  className="aspect-[16/9] w-full object-cover"
+                />
+                <div className="flex flex-wrap items-center justify-between gap-3 bg-char px-6 py-4 ring-1 ring-line">
+                  <p className="font-display text-lg italic text-cream">
+                    Superteam Kotagede Jewellery Group
+                  </p>
+                  <p className="text-[13px] text-mist">
+                    Tim solid di balik bisnis yang dikelola
+                  </p>
+                </div>
+              </div>
+            </Reveal>
           </Reveal>
         </div>
 
