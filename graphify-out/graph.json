@@ -65,7 +65,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": "designsystemgenerator",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -82,17 +82,6 @@
       "norm_label": "bm25",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L96"
-    },
-    {
-      "id": "src_app_app",
-      "label": "App()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "app()",
-      "source_file": "src/App.jsx",
-      "source_location": "L11"
     },
     {
       "id": "src_components_about_about",
@@ -117,17 +106,6 @@
       "source_location": "L20"
     },
     {
-      "id": "src_components_clients_clients",
-      "label": "Clients",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "clients",
-      "source_file": "src/components/Clients.jsx",
-      "source_location": "L21"
-    },
-    {
       "id": "src_components_footer_footer",
       "label": "Footer()",
       "_callable": true,
@@ -139,15 +117,15 @@
       "source_location": "L30"
     },
     {
-      "id": "src_components_hero_hero",
-      "label": "Hero()",
+      "id": "src_components_logo_logo",
+      "label": "Logo()",
       "_callable": true,
       "_origin": "ast",
       "community": 0,
       "file_type": "code",
-      "norm_label": "hero()",
-      "source_file": "src/components/Hero.jsx",
-      "source_location": "L12"
+      "norm_label": "logo()",
+      "source_file": "src/components/Logo.jsx",
+      "source_location": "L1"
     },
     {
       "id": "src_components_masterclass_masterclass",
@@ -172,28 +150,6 @@
       "source_location": "L14"
     },
     {
-      "id": "src_components_programs_programs",
-      "label": "Programs()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "programs()",
-      "source_file": "src/components/Programs.jsx",
-      "source_location": "L25"
-    },
-    {
-      "id": "src_components_reveal_reveal",
-      "label": "Reveal()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "reveal()",
-      "source_file": "src/components/Reveal.jsx",
-      "source_location": "L5"
-    },
-    {
       "id": "src_components_speaker_speaker",
       "label": "Speaker()",
       "_callable": true,
@@ -214,28 +170,6 @@
       "norm_label": "walink()",
       "source_file": "src/lib/config.js",
       "source_location": "L5"
-    },
-    {
-      "id": "src_lib_useprefersreducedmotion_readpreference",
-      "label": "readPreference()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "readpreference()",
-      "source_file": "src/lib/usePrefersReducedMotion.js",
-      "source_location": "L3"
-    },
-    {
-      "id": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
-      "label": "usePrefersReducedMotion()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "useprefersreducedmotion()",
-      "source_file": "src/lib/usePrefersReducedMotion.js",
-      "source_location": "L8"
     },
     {
       "id": "opencode_skills_ui_ux_pro_max_scripts_core_detect_domain",
@@ -392,11 +326,99 @@
       "source_location": "L30"
     },
     {
+      "id": "src_app_app",
+      "label": "App()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "app()",
+      "source_file": "src/App.jsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_components_clients_clients",
+      "label": "Clients",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "clients",
+      "source_file": "src/components/Clients.jsx",
+      "source_location": "L21"
+    },
+    {
+      "id": "src_components_hero_hero",
+      "label": "Hero()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "hero()",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_components_nav_nav",
+      "label": "Nav()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "nav()",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_components_programs_programs",
+      "label": "Programs()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "programs()",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L25"
+    },
+    {
+      "id": "src_components_reveal_reveal",
+      "label": "Reveal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "reveal()",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "src_lib_useprefersreducedmotion_readpreference",
+      "label": "readPreference()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "readpreference()",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "src_lib_useprefersreducedmotion_useprefersreducedmotion",
+      "label": "usePrefersReducedMotion()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "useprefersreducedmotion()",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L8"
+    },
+    {
       "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
       "label": "._apply_reasoning()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": "._apply_reasoning()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -407,7 +429,7 @@
       "label": "._extract_results()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": "._extract_results()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -418,7 +440,7 @@
       "label": "._find_reasoning_rule()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": "._find_reasoning_rule()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -429,7 +451,7 @@
       "label": ".generate()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": ".generate()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -440,7 +462,7 @@
       "label": ".__init__()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": ".__init__()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -451,7 +473,7 @@
       "label": "._load_reasoning()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": "._load_reasoning()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -462,7 +484,7 @@
       "label": "._multi_domain_search()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": "._multi_domain_search()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
@@ -473,33 +495,11 @@
       "label": "._select_best_match()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 5,
       "file_type": "code",
       "norm_label": "._select_best_match()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
       "source_location": "L122"
-    },
-    {
-      "id": "src_components_logo_logo",
-      "label": "Logo()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "file_type": "code",
-      "norm_label": "logo()",
-      "source_file": "src/components/Logo.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_nav_nav",
-      "label": "Nav()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "file_type": "code",
-      "norm_label": "nav()",
-      "source_file": "src/components/Nav.jsx",
-      "source_location": "L14"
     },
     {
       "id": "opencode_skills_ui_ux_pro_max_scripts_core_bm25_fit",
@@ -544,16 +544,6 @@
       "norm_label": ".tokenize()",
       "source_file": ".opencode/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L109"
-    },
-    {
-      "id": "src_app",
-      "label": "App.jsx",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "app.jsx",
-      "source_file": "src/App.jsx",
-      "source_location": "L1"
     },
     {
       "id": "src_components_about",
@@ -626,16 +616,6 @@
       "source_location": "L6"
     },
     {
-      "id": "src_components_clients",
-      "label": "Clients.jsx",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "clients.jsx",
-      "source_file": "src/components/Clients.jsx",
-      "source_location": "L1"
-    },
-    {
       "id": "src_components_footer",
       "label": "Footer.jsx",
       "_origin": "ast",
@@ -696,6 +676,16 @@
       "source_location": "L6"
     },
     {
+      "id": "src_components_logo",
+      "label": "Logo.jsx",
+      "_origin": "ast",
+      "community": 0,
+      "file_type": "code",
+      "norm_label": "logo.jsx",
+      "source_file": "src/components/Logo.jsx",
+      "source_location": "L1"
+    },
+    {
       "id": "src_components_masterclass",
       "label": "Masterclass.jsx",
       "_origin": "ast",
@@ -754,36 +744,6 @@
       "norm_label": "fitfor",
       "source_file": "src/components/Private.jsx",
       "source_location": "L6"
-    },
-    {
-      "id": "src_components_programs",
-      "label": "Programs.jsx",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "programs.jsx",
-      "source_file": "src/components/Programs.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_programs_options",
-      "label": "options",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "options",
-      "source_file": "src/components/Programs.jsx",
-      "source_location": "L4"
-    },
-    {
-      "id": "src_components_reveal",
-      "label": "Reveal.jsx",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "reveal.jsx",
-      "source_file": "src/components/Reveal.jsx",
-      "source_location": "L1"
     },
     {
       "id": "src_components_speaker",
@@ -864,36 +824,6 @@
       "norm_label": "whatsapp_number",
       "source_file": "src/lib/config.js",
       "source_location": "L3"
-    },
-    {
-      "id": "src_lib_gsap",
-      "label": "gsap.js",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "gsap.js",
-      "source_file": "src/lib/gsap.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_lib_useprefersreducedmotion",
-      "label": "usePrefersReducedMotion.js",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "useprefersreducedmotion.js",
-      "source_file": "src/lib/usePrefersReducedMotion.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_main",
-      "label": "main.jsx",
-      "_origin": "ast",
-      "community": 0,
-      "file_type": "code",
-      "norm_label": "main.jsx",
-      "source_file": "src/main.jsx",
-      "source_location": "L1"
     },
     {
       "id": "src_lib_config_rationale_19",
@@ -1086,590 +1016,40 @@
       "source_location": "L31"
     },
     {
-      "id": "package_dependencies",
-      "label": "dependencies",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "package.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "package_dependencies_fontsource_cormorant_garamond",
-      "label": "@fontsource/cormorant-garamond",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "@fontsource/cormorant-garamond",
-      "source_file": "package.json",
-      "source_location": "L13"
-    },
-    {
-      "id": "package_dependencies_fontsource_manrope",
-      "label": "@fontsource/manrope",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "@fontsource/manrope",
-      "source_file": "package.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "package_dependencies_fontsource_outfit",
-      "label": "@fontsource/outfit",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "@fontsource/outfit",
-      "source_file": "package.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "package_dependencies_gsap",
-      "label": "gsap",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "gsap",
-      "source_file": "package.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "package_dependencies_gsap_react",
-      "label": "@gsap/react",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "@gsap/react",
-      "source_file": "package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "package_dependencies_phosphor_icons_react",
-      "label": "@phosphor-icons/react",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "@phosphor-icons/react",
-      "source_file": "package.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "package_dependencies_react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "react",
-      "source_file": "package.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "package_dependencies_react_dom",
-      "label": "react-dom",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "react-dom",
-      "source_file": "package.json",
-      "source_location": "L21"
-    },
-    {
-      "id": "package_dependencies_tailwindcss",
-      "label": "tailwindcss",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "tailwindcss",
-      "source_file": "package.json",
-      "source_location": "L22"
-    },
-    {
-      "id": "package_dependencies_tailwindcss_vite",
-      "label": "@tailwindcss/vite",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "code",
-      "norm_label": "@tailwindcss/vite",
-      "source_file": "package.json",
-      "source_location": "L18"
-    },
-    {
-      "id": "fontsource_cormorant_garamond",
-      "label": "@fontsource/cormorant-garamond",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "@fontsource/cormorant-garamond",
-      "source_file": "package.json",
-      "source_location": "L13"
-    },
-    {
-      "id": "fontsource_manrope",
-      "label": "@fontsource/manrope",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "@fontsource/manrope",
-      "source_file": "package.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "fontsource_outfit",
-      "label": "@fontsource/outfit",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "@fontsource/outfit",
-      "source_file": "package.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "gsap",
-      "label": "gsap",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "gsap",
-      "source_file": "package.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "gsap_react",
-      "label": "@gsap/react",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "@gsap/react",
-      "source_file": "package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "phosphor_icons_react",
-      "label": "@phosphor-icons/react",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "@phosphor-icons/react",
-      "source_file": "package.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "react",
-      "source_file": "package.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "react_dom",
-      "label": "react-dom",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "react-dom",
-      "source_file": "package.json",
-      "source_location": "L21"
-    },
-    {
-      "id": "tailwindcss",
-      "label": "tailwindcss",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "tailwindcss",
-      "source_file": "package.json",
-      "source_location": "L22"
-    },
-    {
-      "id": "tailwindcss_vite",
-      "label": "@tailwindcss/vite",
-      "_origin": "ast",
-      "community": 2,
-      "file_type": "concept",
-      "norm_label": "@tailwindcss/vite",
-      "source_file": "package.json",
-      "source_location": "L18"
-    },
-    {
-      "id": "package",
-      "label": "package.json",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "package.json",
-      "source_file": "package.json",
-      "source_location": "L1"
-    },
-    {
-      "id": "package_devdependencies",
-      "label": "devDependencies",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "devdependencies",
-      "source_file": "package.json",
-      "source_location": "L24"
-    },
-    {
-      "id": "package_devdependencies_oxlint",
-      "label": "oxlint",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "oxlint",
-      "source_file": "package.json",
-      "source_location": "L28"
-    },
-    {
-      "id": "package_devdependencies_types_react",
-      "label": "@types/react",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "@types/react",
-      "source_file": "package.json",
-      "source_location": "L25"
-    },
-    {
-      "id": "package_devdependencies_types_react_dom",
-      "label": "@types/react-dom",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "@types/react-dom",
-      "source_file": "package.json",
-      "source_location": "L26"
-    },
-    {
-      "id": "package_devdependencies_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "vite",
-      "source_file": "package.json",
-      "source_location": "L29"
-    },
-    {
-      "id": "package_devdependencies_vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "@vitejs/plugin-react",
-      "source_file": "package.json",
-      "source_location": "L27"
-    },
-    {
-      "id": "package_name",
-      "label": "name",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "name",
-      "source_file": "package.json",
-      "source_location": "L2"
-    },
-    {
-      "id": "package_private",
-      "label": "private",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "private",
-      "source_file": "package.json",
-      "source_location": "L3"
-    },
-    {
-      "id": "package_scripts",
-      "label": "scripts",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "package_scripts_build",
-      "label": "build",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "build",
-      "source_file": "package.json",
-      "source_location": "L8"
-    },
-    {
-      "id": "package_scripts_dev",
-      "label": "dev",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "dev",
-      "source_file": "package.json",
-      "source_location": "L7"
-    },
-    {
-      "id": "package_scripts_lint",
-      "label": "lint",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "lint",
-      "source_file": "package.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "package_scripts_preview",
-      "label": "preview",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "preview",
-      "source_file": "package.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "package_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "package.json",
-      "source_location": "L5"
-    },
-    {
-      "id": "package_version",
-      "label": "version",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "code",
-      "norm_label": "version",
-      "source_file": "package.json",
-      "source_location": "L4"
-    },
-    {
-      "id": "oxlint",
-      "label": "oxlint",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "concept",
-      "norm_label": "oxlint",
-      "source_file": "package.json",
-      "source_location": "L28"
-    },
-    {
-      "id": "types_react",
-      "label": "@types/react",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "concept",
-      "norm_label": "@types/react",
-      "source_file": "package.json",
-      "source_location": "L25"
-    },
-    {
-      "id": "types_react_dom",
-      "label": "@types/react-dom",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "concept",
-      "norm_label": "@types/react-dom",
-      "source_file": "package.json",
-      "source_location": "L26"
-    },
-    {
-      "id": "vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "package.json",
-      "source_location": "L29"
-    },
-    {
-      "id": "vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
-      "_origin": "ast",
-      "community": 3,
-      "file_type": "concept",
-      "norm_label": "@vitejs/plugin-react",
-      "source_file": "package.json",
-      "source_location": "L27"
-    },
-    {
-      "id": "vite_config",
-      "label": "vite.config.js",
-      "_origin": "ast",
-      "community": 32,
-      "file_type": "code",
-      "norm_label": "vite.config.js",
-      "source_file": "vite.config.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_123",
-      "label": "Select best matching result based on priority keywords.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "select best matching result based on priority keywords.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L123"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_160",
-      "label": "Extract results list from search result dict.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "extract results list from search result dict.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L160"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_164",
-      "label": "Generate complete design system recommendation.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "generate complete design system recommendation.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L164"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_38",
-      "label": "Generates design system recommendations from aggregated searches.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "generates design system recommendations from aggregated searches.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L38"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_44",
-      "label": "Load reasoning rules from CSV.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "load reasoning rules from csv.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L44"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_52",
-      "label": "Execute searches across multiple domains.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "execute searches across multiple domains.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L52"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_65",
-      "label": "Find matching reasoning rule for a category.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "find matching reasoning rule for a category.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L65"
-    },
-    {
-      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_89",
-      "label": "Apply reasoning rules to search results.",
-      "_origin": "ast",
-      "community": 4,
-      "file_type": "rationale",
-      "norm_label": "apply reasoning rules to search results.",
-      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
-      "source_location": "L89"
-    },
-    {
-      "id": "oxlintrc",
-      "label": ".oxlintrc.json",
-      "_origin": "ast",
-      "community": 5,
-      "file_type": "code",
-      "norm_label": ".oxlintrc.json",
-      "source_file": ".oxlintrc.json",
-      "source_location": "L1"
-    },
-    {
       "id": "oxlintrc_plugins",
       "label": "plugins",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "code",
       "norm_label": "plugins",
       "source_file": ".oxlintrc.json",
       "source_location": "L3"
     },
     {
-      "id": "oxlintrc_rules",
-      "label": "rules",
+      "id": "src_app",
+      "label": "App.jsx",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "code",
-      "norm_label": "rules",
-      "source_file": ".oxlintrc.json",
-      "source_location": "L4"
+      "norm_label": "app.jsx",
+      "source_file": "src/App.jsx",
+      "source_location": "L1"
     },
     {
-      "id": "oxlintrc_rules_react_only_export_components",
-      "label": "react/only-export-components",
+      "id": "src_components_clients",
+      "label": "Clients.jsx",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "code",
-      "norm_label": "react/only-export-components",
-      "source_file": ".oxlintrc.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "oxlintrc_rules_react_rules_of_hooks",
-      "label": "react/rules-of-hooks",
-      "_origin": "ast",
-      "community": 5,
-      "file_type": "code",
-      "norm_label": "react/rules-of-hooks",
-      "source_file": ".oxlintrc.json",
-      "source_location": "L5"
-    },
-    {
-      "id": "oxlintrc_schema",
-      "label": "$schema",
-      "_origin": "ast",
-      "community": 5,
-      "file_type": "code",
-      "norm_label": "$schema",
-      "source_file": ".oxlintrc.json",
-      "source_location": "L2"
-    },
-    {
-      "id": "src_components_logo",
-      "label": "Logo.jsx",
-      "_origin": "ast",
-      "community": 5,
-      "file_type": "code",
-      "norm_label": "logo.jsx",
-      "source_file": "src/components/Logo.jsx",
+      "norm_label": "clients.jsx",
+      "source_file": "src/components/Clients.jsx",
       "source_location": "L1"
     },
     {
       "id": "src_components_nav",
       "label": "Nav.jsx",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "code",
       "norm_label": "nav.jsx",
       "source_file": "src/components/Nav.jsx",
@@ -1679,27 +1059,87 @@
       "id": "src_components_nav_links",
       "label": "links",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "code",
       "norm_label": "links",
       "source_file": "src/components/Nav.jsx",
-      "source_location": "L4"
+      "source_location": "L5"
     },
     {
       "id": "src_components_nav_sectionids",
       "label": "sectionIds",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "code",
       "norm_label": "sectionids",
       "source_file": "src/components/Nav.jsx",
-      "source_location": "L12"
+      "source_location": "L13"
+    },
+    {
+      "id": "src_components_programs",
+      "label": "Programs.jsx",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "programs.jsx",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_programs_options",
+      "label": "options",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "options",
+      "source_file": "src/components/Programs.jsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_reveal",
+      "label": "Reveal.jsx",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "reveal.jsx",
+      "source_file": "src/components/Reveal.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_gsap",
+      "label": "gsap.js",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "gsap.js",
+      "source_file": "src/lib/gsap.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_lib_useprefersreducedmotion",
+      "label": "usePrefersReducedMotion.js",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "useprefersreducedmotion.js",
+      "source_file": "src/lib/usePrefersReducedMotion.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_main",
+      "label": "main.jsx",
+      "_origin": "ast",
+      "community": 2,
+      "file_type": "code",
+      "norm_label": "main.jsx",
+      "source_file": "src/main.jsx",
+      "source_location": "L1"
     },
     {
       "id": "ref_oxc",
       "label": "oxc",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "concept",
       "norm_label": "oxc",
       "source_file": ".oxlintrc.json",
@@ -1709,21 +1149,521 @@
       "id": "ref_react",
       "label": "react",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "file_type": "concept",
       "norm_label": "react",
       "source_file": ".oxlintrc.json",
       "source_location": "L3"
     },
     {
-      "id": "ref_warn",
-      "label": "warn",
+      "id": "package_dependencies",
+      "label": "dependencies",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "dependencies",
+      "source_file": "package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "package_dependencies_fontsource_cormorant_garamond",
+      "label": "@fontsource/cormorant-garamond",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "@fontsource/cormorant-garamond",
+      "source_file": "package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "package_dependencies_fontsource_manrope",
+      "label": "@fontsource/manrope",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "@fontsource/manrope",
+      "source_file": "package.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "package_dependencies_fontsource_outfit",
+      "label": "@fontsource/outfit",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "@fontsource/outfit",
+      "source_file": "package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "package_dependencies_gsap",
+      "label": "gsap",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "gsap",
+      "source_file": "package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "package_dependencies_gsap_react",
+      "label": "@gsap/react",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "@gsap/react",
+      "source_file": "package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "package_dependencies_phosphor_icons_react",
+      "label": "@phosphor-icons/react",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "@phosphor-icons/react",
+      "source_file": "package.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "package_dependencies_react",
+      "label": "react",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "react",
+      "source_file": "package.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "package_dependencies_react_dom",
+      "label": "react-dom",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "react-dom",
+      "source_file": "package.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "package_dependencies_tailwindcss",
+      "label": "tailwindcss",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "tailwindcss",
+      "source_file": "package.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "package_dependencies_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "code",
+      "norm_label": "@tailwindcss/vite",
+      "source_file": "package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "fontsource_cormorant_garamond",
+      "label": "@fontsource/cormorant-garamond",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "@fontsource/cormorant-garamond",
+      "source_file": "package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "fontsource_manrope",
+      "label": "@fontsource/manrope",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "@fontsource/manrope",
+      "source_file": "package.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "fontsource_outfit",
+      "label": "@fontsource/outfit",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "@fontsource/outfit",
+      "source_file": "package.json",
+      "source_location": "L15"
+    },
+    {
+      "id": "gsap",
+      "label": "gsap",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "gsap",
+      "source_file": "package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "gsap_react",
+      "label": "@gsap/react",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "@gsap/react",
+      "source_file": "package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "phosphor_icons_react",
+      "label": "@phosphor-icons/react",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "@phosphor-icons/react",
+      "source_file": "package.json",
+      "source_location": "L17"
+    },
+    {
+      "id": "react",
+      "label": "react",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "react",
+      "source_file": "package.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "react_dom",
+      "label": "react-dom",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "react-dom",
+      "source_file": "package.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "tailwindcss",
+      "label": "tailwindcss",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "tailwindcss",
+      "source_file": "package.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "_origin": "ast",
+      "community": 3,
+      "file_type": "concept",
+      "norm_label": "@tailwindcss/vite",
+      "source_file": "package.json",
+      "source_location": "L18"
+    },
+    {
+      "id": "vite_config",
+      "label": "vite.config.js",
+      "_origin": "ast",
+      "community": 34,
+      "file_type": "code",
+      "norm_label": "vite.config.js",
+      "source_file": "vite.config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "package",
+      "label": "package.json",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "package.json",
+      "source_file": "package.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "devdependencies",
+      "source_file": "package.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "package_devdependencies_oxlint",
+      "label": "oxlint",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "oxlint",
+      "source_file": "package.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "package_devdependencies_types_react",
+      "label": "@types/react",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "@types/react",
+      "source_file": "package.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "package_devdependencies_types_react_dom",
+      "label": "@types/react-dom",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "@types/react-dom",
+      "source_file": "package.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "package_devdependencies_vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "vite",
+      "source_file": "package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "package_devdependencies_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "@vitejs/plugin-react",
+      "source_file": "package.json",
+      "source_location": "L27"
+    },
+    {
+      "id": "package_name",
+      "label": "name",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "name",
+      "source_file": "package.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "package_private",
+      "label": "private",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "private",
+      "source_file": "package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "scripts",
+      "source_file": "package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "package_scripts_build",
+      "label": "build",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "build",
+      "source_file": "package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "package_scripts_dev",
+      "label": "dev",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "dev",
+      "source_file": "package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "package_scripts_lint",
+      "label": "lint",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "lint",
+      "source_file": "package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "package_scripts_preview",
+      "label": "preview",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "preview",
+      "source_file": "package.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "package_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "package.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "package_version",
+      "label": "version",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "code",
+      "norm_label": "version",
+      "source_file": "package.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "oxlint",
+      "label": "oxlint",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "concept",
+      "norm_label": "oxlint",
+      "source_file": "package.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "types_react",
+      "label": "@types/react",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "concept",
+      "norm_label": "@types/react",
+      "source_file": "package.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "types_react_dom",
+      "label": "@types/react-dom",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "concept",
+      "norm_label": "@types/react-dom",
+      "source_file": "package.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "concept",
+      "norm_label": "vite",
+      "source_file": "package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "_origin": "ast",
+      "community": 4,
+      "file_type": "concept",
+      "norm_label": "@vitejs/plugin-react",
+      "source_file": "package.json",
+      "source_location": "L27"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_123",
+      "label": "Select best matching result based on priority keywords.",
       "_origin": "ast",
       "community": 5,
-      "file_type": "concept",
-      "norm_label": "warn",
-      "source_file": ".oxlintrc.json",
-      "source_location": "L6"
+      "file_type": "rationale",
+      "norm_label": "select best matching result based on priority keywords.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L123"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_160",
+      "label": "Extract results list from search result dict.",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "extract results list from search result dict.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L160"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_164",
+      "label": "Generate complete design system recommendation.",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "generate complete design system recommendation.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L164"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_38",
+      "label": "Generates design system recommendations from aggregated searches.",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "generates design system recommendations from aggregated searches.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L38"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_44",
+      "label": "Load reasoning rules from CSV.",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "load reasoning rules from csv.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_52",
+      "label": "Execute searches across multiple domains.",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "execute searches across multiple domains.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L52"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_65",
+      "label": "Find matching reasoning rule for a category.",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "find matching reasoning rule for a category.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L65"
+    },
+    {
+      "id": "opencode_skills_ui_ux_pro_max_scripts_design_system_rationale_89",
+      "label": "Apply reasoning rules to search results.",
+      "_origin": "ast",
+      "community": 5,
+      "file_type": "rationale",
+      "norm_label": "apply reasoning rules to search results.",
+      "source_file": ".opencode/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source_location": "L89"
     },
     {
       "id": "opencode_skills_ui_ux_pro_max_scripts_core_rationale_110",
@@ -1766,12 +1706,72 @@
       "source_location": "L97"
     },
     {
+      "id": "oxlintrc",
+      "label": ".oxlintrc.json",
+      "_origin": "ast",
+      "community": 8,
+      "file_type": "code",
+      "norm_label": ".oxlintrc.json",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "oxlintrc_rules",
+      "label": "rules",
+      "_origin": "ast",
+      "community": 8,
+      "file_type": "code",
+      "norm_label": "rules",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "oxlintrc_rules_react_only_export_components",
+      "label": "react/only-export-components",
+      "_origin": "ast",
+      "community": 8,
+      "file_type": "code",
+      "norm_label": "react/only-export-components",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "oxlintrc_rules_react_rules_of_hooks",
+      "label": "react/rules-of-hooks",
+      "_origin": "ast",
+      "community": 8,
+      "file_type": "code",
+      "norm_label": "react/rules-of-hooks",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "oxlintrc_schema",
+      "label": "$schema",
+      "_origin": "ast",
+      "community": 8,
+      "file_type": "code",
+      "norm_label": "$schema",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "ref_warn",
+      "label": "warn",
+      "_origin": "ast",
+      "community": 8,
+      "file_type": "concept",
+      "norm_label": "warn",
+      "source_file": ".oxlintrc.json",
+      "source_location": "L6"
+    },
+    {
       "id": "pt_kotagede_jewellery_group",
       "label": "PT Kotagede Jewellery Group",
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 10,
+      "community": 11,
       "contributor": null,
       "file_type": "concept",
       "norm_label": "pt kotagede jewellery group",
@@ -1786,7 +1786,7 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 10,
+      "community": 11,
       "contributor": null,
       "file_type": "concept",
       "norm_label": "yayasan riyadhul jannah indonesia",
@@ -1801,7 +1801,7 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 10,
+      "community": 11,
       "contributor": null,
       "file_type": "image",
       "norm_label": "pt kotagede jewellery group superteam photo",
@@ -1816,7 +1816,7 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 10,
+      "community": 11,
       "contributor": null,
       "file_type": "image",
       "norm_label": "yayasan riyadhul jannah indonesia infographic",
@@ -1831,7 +1831,7 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 12,
+      "community": 14,
       "contributor": null,
       "file_type": "concept",
       "norm_label": "teaching history and msme mentoring",
@@ -1846,7 +1846,7 @@
       "_origin": "semantic",
       "author": null,
       "captured_at": null,
-      "community": 12,
+      "community": 14,
       "contributor": null,
       "file_type": "image",
       "norm_label": "teaching history distribution map",
@@ -1856,213 +1856,10 @@
       "source_url": null
     },
     {
-      "id": "index_html",
-      "label": "Landing Page Entry",
-      "_origin": "semantic",
-      "community": 11,
-      "file_type": "code",
-      "norm_label": "landing page entry",
-      "source_file": "index.html",
-      "verification": "unverified"
-    },
-    {
-      "id": "public_favicon",
-      "label": "Favicon SVG",
-      "_origin": "semantic",
-      "community": 11,
-      "file_type": "code",
-      "norm_label": "favicon svg",
-      "source_file": "public/favicon.svg"
-    },
-    {
-      "id": "public_brand_abata_jogja",
-      "label": "Abata Jogja Logo",
-      "_origin": "semantic",
-      "community": 13,
-      "file_type": "image",
-      "norm_label": "abata jogja logo",
-      "source_file": "public/brand/abata-jogja.png"
-    },
-    {
-      "id": "public_brand_bisnis_safar",
-      "label": "Safar Brand Logo",
-      "_origin": "semantic",
-      "community": 14,
-      "file_type": "image",
-      "norm_label": "safar brand logo",
-      "rationale": "Geometric gold logo depicting a stylized 'S' or 'G' within a hexagon.",
-      "source_file": "public/brand-bisnis/safar.png"
-    },
-    {
-      "id": "public_brand_emblem",
-      "label": "Brand Emblem SVG",
-      "_origin": "semantic",
-      "community": 15,
-      "file_type": "code",
-      "norm_label": "brand emblem svg",
-      "source_file": "public/brand/emblem.svg"
-    },
-    {
-      "id": "public_brand_html",
-      "label": "Brand Guidelines Web View",
-      "_origin": "semantic",
-      "community": 16,
-      "file_type": "code",
-      "norm_label": "brand guidelines web view",
-      "source_file": "public/brand.html"
-    },
-    {
-      "id": "public_brand_kotagede_jewellery",
-      "label": "KotaGede Jewellery Logo",
-      "_origin": "semantic",
-      "community": 17,
-      "file_type": "image",
-      "norm_label": "kotagede jewellery logo",
-      "source_file": "public/brand-bisnis/kotagede-jewellery.png"
-    },
-    {
-      "id": "public_icons",
-      "label": "Icon Library",
-      "_origin": "semantic",
-      "community": 18,
-      "file_type": "code",
-      "norm_label": "icon library",
-      "source_file": "public/icons.svg"
-    },
-    {
-      "id": "public_riwayat_mengajar_dinkop_ukm_blitar",
-      "label": "Kabupaten Blitar Logo",
-      "_origin": "semantic",
-      "community": 24,
-      "file_type": "image",
-      "norm_label": "kabupaten blitar logo",
-      "rationale": "Official seal of Kabupaten Blitar, representing a teaching history location.",
-      "source_file": "public/riwayat-mengajar/dinkop-ukm-blitar.png"
-    },
-    {
-      "id": "public_riwayat_mengajar_dinkop_ukm_diy",
-      "label": "Dinas Koperasi UKM DIY Logo",
-      "_origin": "semantic",
-      "community": 25,
-      "file_type": "image",
-      "norm_label": "dinas koperasi ukm diy logo",
-      "rationale": "Official logo of the Cooperative and SME Office of Yogyakarta.",
-      "source_file": "public/riwayat-mengajar/dinkop-ukm-diy.png"
-    },
-    {
-      "id": "public_riwayat_mengajar_djp",
-      "label": "DJP Logo",
-      "_origin": "semantic",
-      "community": 26,
-      "file_type": "image",
-      "norm_label": "djp logo",
-      "rationale": "Logo of Direktorat Jenderal Pajak (Directorate General of Taxes).",
-      "source_file": "public/riwayat-mengajar/djp.png"
-    },
-    {
-      "id": "public_riwayat_mengajar_kemenkp_ukm",
-      "label": "Kemenkop UKM Logo",
-      "_origin": "semantic",
-      "community": 27,
-      "file_type": "image",
-      "norm_label": "kemenkop ukm logo",
-      "rationale": "Logo of the Ministry of Cooperatives and SMEs of the Republic of Indonesia.",
-      "source_file": "public/riwayat-mengajar/kemenkp-ukm.png"
-    },
-    {
-      "id": "public_riwayat_mengajar_kmapus_manager",
-      "label": "Kampus Manager Logo",
-      "_origin": "semantic",
-      "community": 28,
-      "file_type": "image",
-      "norm_label": "kampus manager logo",
-      "rationale": "Logo for Kampus Manager educational platform.",
-      "source_file": "public/riwayat-mengajar/kmapus-manager.png"
-    },
-    {
-      "id": "public_riwayat_mengajar_ojc",
-      "label": "OJC Auto Course Logo",
-      "_origin": "semantic",
-      "community": 29,
-      "file_type": "image",
-      "norm_label": "ojc auto course logo",
-      "rationale": "Logo for OJC Auto Course (Kompeten & Berkarakter).",
-      "source_file": "public/riwayat-mengajar/ojc.png"
-    },
-    {
-      "id": "public_riwayat_mengajar_pmmm",
-      "label": "Pesantren Masyarakat Merapi Merbabu Logo",
-      "_origin": "semantic",
-      "community": 30,
-      "file_type": "image",
-      "norm_label": "pesantren masyarakat merapi merbabu logo",
-      "rationale": "Logo of the PMMM educational institution.",
-      "source_file": "public/riwayat-mengajar/pmmm.png"
-    },
-    {
-      "id": "public_riwayat_mengajar_sbc",
-      "label": "Sukses Berkah Community Logo",
-      "_origin": "semantic",
-      "community": 31,
-      "file_type": "image",
-      "norm_label": "sukses berkah community logo",
-      "rationale": "Logo for the SSBC (Sukses Berkah Community).",
-      "source_file": "public/riwayat-mengajar/sbc.png"
-    },
-    {
-      "id": "src_components_testimonials",
-      "label": "Testimonials Component",
-      "_origin": "semantic",
-      "community": 8,
-      "file_type": "code",
-      "norm_label": "testimonials component",
-      "source_file": "src/components/Testimonials.jsx"
-    },
-    {
-      "id": "dark_cinematic_luxury",
-      "label": "Dark Cinematic Luxury",
-      "_origin": "semantic",
-      "community": 8,
-      "file_type": "concept",
-      "norm_label": "dark cinematic luxury",
-      "rationale": "The overarching visual style and mood for the project.",
-      "source_file": "design-system/coach-joko/MASTER.md"
-    },
-    {
-      "id": "the_clarity_point",
-      "label": "The Clarity Point",
-      "_origin": "semantic",
-      "community": 8,
-      "file_type": "concept",
-      "norm_label": "the clarity point",
-      "rationale": "Core metaphor representing growth and direction.",
-      "source_file": "design-system/BRAND.md"
-    },
-    {
-      "id": "design_system_brand",
-      "label": "Brand Guidelines",
-      "_origin": "semantic",
-      "community": 8,
-      "file_type": "document",
-      "norm_label": "brand guidelines",
-      "rationale": "Primary source for brand strategy, visual identity, and core messaging.",
-      "source_file": "design-system/BRAND.md"
-    },
-    {
-      "id": "design_system_coach_joko_master",
-      "label": "Design System Master File",
-      "_origin": "semantic",
-      "community": 8,
-      "file_type": "document",
-      "norm_label": "design system master file",
-      "rationale": "Central authority for UI/UX rules, component mapping, and technical implementation details.",
-      "source_file": "design-system/coach-joko/MASTER.md"
-    },
-    {
       "id": "joko_wardiyanto",
       "label": "Joko Wardiyanto",
       "_origin": "semantic",
-      "community": 9,
+      "community": 10,
       "file_type": "concept",
       "norm_label": "joko wardiyanto",
       "rationale": "The central figure/coach depicted in the landing page assets.",
@@ -2072,7 +1869,7 @@
       "id": "public_coach_coach",
       "label": "Coach Joko Wardiyanto Speaking",
       "_origin": "semantic",
-      "community": 9,
+      "community": 10,
       "file_type": "image",
       "norm_label": "coach joko wardiyanto speaking",
       "rationale": "Photo of Joko Wardiyanto presenting at a 'Rahasia Membangun' workshop.",
@@ -2082,7 +1879,7 @@
       "id": "public_coach_photo",
       "label": "Coach Joko Wardiyanto Portrait",
       "_origin": "semantic",
-      "community": 9,
+      "community": 10,
       "file_type": "image",
       "norm_label": "coach joko wardiyanto portrait",
       "rationale": "Professional studio portrait of Coach Joko Wardiyanto in a suit.",
@@ -2092,7 +1889,7 @@
       "id": "public_riwayat_mengajar_uii",
       "label": "Universitas Islam Indonesia Logo",
       "_origin": "semantic",
-      "community": 9,
+      "community": 10,
       "file_type": "image",
       "norm_label": "universitas islam indonesia logo",
       "rationale": "Official seal of Universitas Islam Indonesia (UII).",
@@ -2102,16 +1899,91 @@
       "id": "public_riwayat_mengajar_unair",
       "label": "Universitas Airlangga Logo",
       "_origin": "semantic",
-      "community": 9,
+      "community": 10,
       "file_type": "image",
       "norm_label": "universitas airlangga logo",
       "rationale": "Official seal of Universitas Airlangga (UNAIR).",
       "source_file": "public/riwayat-mengajar/unair.png"
     },
     {
+      "id": "index_html",
+      "label": "Landing Page Entry",
+      "_origin": "semantic",
+      "community": 12,
+      "file_type": "code",
+      "norm_label": "landing page entry",
+      "source_file": "index.html",
+      "verification": "unverified"
+    },
+    {
+      "id": "public_favicon",
+      "label": "Favicon SVG",
+      "_origin": "semantic",
+      "community": 12,
+      "file_type": "code",
+      "norm_label": "favicon svg",
+      "source_file": "public/favicon.svg"
+    },
+    {
+      "id": "public_brand_abata_jogja",
+      "label": "Abata Jogja Logo",
+      "_origin": "semantic",
+      "community": 15,
+      "file_type": "image",
+      "norm_label": "abata jogja logo",
+      "source_file": "public/brand/abata-jogja.png"
+    },
+    {
+      "id": "public_brand_bisnis_safar",
+      "label": "Safar Brand Logo",
+      "_origin": "semantic",
+      "community": 16,
+      "file_type": "image",
+      "norm_label": "safar brand logo",
+      "rationale": "Geometric gold logo depicting a stylized 'S' or 'G' within a hexagon.",
+      "source_file": "public/brand-bisnis/safar.png"
+    },
+    {
+      "id": "public_brand_emblem",
+      "label": "Brand Emblem SVG",
+      "_origin": "semantic",
+      "community": 17,
+      "file_type": "code",
+      "norm_label": "brand emblem svg",
+      "source_file": "public/brand/emblem.svg"
+    },
+    {
+      "id": "public_brand_html",
+      "label": "Brand Guidelines Web View",
+      "_origin": "semantic",
+      "community": 18,
+      "file_type": "code",
+      "norm_label": "brand guidelines web view",
+      "source_file": "public/brand.html"
+    },
+    {
+      "id": "public_brand_kotagede_jewellery",
+      "label": "KotaGede Jewellery Logo",
+      "_origin": "semantic",
+      "community": 19,
+      "file_type": "image",
+      "norm_label": "kotagede jewellery logo",
+      "source_file": "public/brand-bisnis/kotagede-jewellery.png"
+    },
+    {
+      "id": "public_icons",
+      "label": "Icon Library",
+      "_origin": "semantic",
+      "community": 20,
+      "file_type": "code",
+      "norm_label": "icon library",
+      "source_file": "public/icons.svg"
+    },
+    {
       "id": "public_kelas_kelas_1",
       "label": "Team Gathering Photo",
-      "community": 19,
+      "_origin": "semantic",
+      "community": 21,
       "file_type": "image",
       "norm_label": "team gathering photo",
       "rationale": "Group photo of participants/team members on a boat or floating platform.",
@@ -2120,7 +1992,8 @@
     {
       "id": "public_kelas_kelas_3",
       "label": "Classroom Training Session",
-      "community": 20,
+      "_origin": "semantic",
+      "community": 22,
       "file_type": "image",
       "norm_label": "classroom training session",
       "rationale": "Participants in a formal training room setting with desks and notebooks.",
@@ -2129,7 +2002,8 @@
     {
       "id": "public_kelas_kelas_4",
       "label": "Workshop Audience",
-      "community": 21,
+      "_origin": "semantic",
+      "community": 23,
       "file_type": "image",
       "norm_label": "workshop audience",
       "rationale": "Close-up of participants attending a workshop or seminar.",
@@ -2138,7 +2012,8 @@
     {
       "id": "public_kelas_kelas_7",
       "label": "Outdoor Group Photo",
-      "community": 22,
+      "_origin": "semantic",
+      "community": 24,
       "file_type": "image",
       "norm_label": "outdoor group photo",
       "rationale": "Large group photo on a wooden pier at sunset/dusk.",
@@ -2147,15 +2022,97 @@
     {
       "id": "public_kelas_kelas_9",
       "label": "Interactive Workshop Session",
-      "community": 23,
+      "_origin": "semantic",
+      "community": 25,
       "file_type": "image",
       "norm_label": "interactive workshop session",
       "rationale": "Participants sitting at tables in a bright room, some making hand gestures.",
       "source_file": "public/kelas/kelas-9.webp"
     },
     {
+      "id": "public_riwayat_mengajar_dinkop_ukm_blitar",
+      "label": "Kabupaten Blitar Logo",
+      "_origin": "semantic",
+      "community": 26,
+      "file_type": "image",
+      "norm_label": "kabupaten blitar logo",
+      "rationale": "Official seal of Kabupaten Blitar, representing a teaching history location.",
+      "source_file": "public/riwayat-mengajar/dinkop-ukm-blitar.png"
+    },
+    {
+      "id": "public_riwayat_mengajar_dinkop_ukm_diy",
+      "label": "Dinas Koperasi UKM DIY Logo",
+      "_origin": "semantic",
+      "community": 27,
+      "file_type": "image",
+      "norm_label": "dinas koperasi ukm diy logo",
+      "rationale": "Official logo of the Cooperative and SME Office of Yogyakarta.",
+      "source_file": "public/riwayat-mengajar/dinkop-ukm-diy.png"
+    },
+    {
+      "id": "public_riwayat_mengajar_djp",
+      "label": "DJP Logo",
+      "_origin": "semantic",
+      "community": 28,
+      "file_type": "image",
+      "norm_label": "djp logo",
+      "rationale": "Logo of Direktorat Jenderal Pajak (Directorate General of Taxes).",
+      "source_file": "public/riwayat-mengajar/djp.png"
+    },
+    {
+      "id": "public_riwayat_mengajar_kemenkp_ukm",
+      "label": "Kemenkop UKM Logo",
+      "_origin": "semantic",
+      "community": 29,
+      "file_type": "image",
+      "norm_label": "kemenkop ukm logo",
+      "rationale": "Logo of the Ministry of Cooperatives and SMEs of the Republic of Indonesia.",
+      "source_file": "public/riwayat-mengajar/kemenkp-ukm.png"
+    },
+    {
+      "id": "public_riwayat_mengajar_kmapus_manager",
+      "label": "Kampus Manager Logo",
+      "_origin": "semantic",
+      "community": 30,
+      "file_type": "image",
+      "norm_label": "kampus manager logo",
+      "rationale": "Logo for Kampus Manager educational platform.",
+      "source_file": "public/riwayat-mengajar/kmapus-manager.png"
+    },
+    {
+      "id": "public_riwayat_mengajar_ojc",
+      "label": "OJC Auto Course Logo",
+      "_origin": "semantic",
+      "community": 31,
+      "file_type": "image",
+      "norm_label": "ojc auto course logo",
+      "rationale": "Logo for OJC Auto Course (Kompeten & Berkarakter).",
+      "source_file": "public/riwayat-mengajar/ojc.png"
+    },
+    {
+      "id": "public_riwayat_mengajar_pmmm",
+      "label": "Pesantren Masyarakat Merapi Merbabu Logo",
+      "_origin": "semantic",
+      "community": 32,
+      "file_type": "image",
+      "norm_label": "pesantren masyarakat merapi merbabu logo",
+      "rationale": "Logo of the PMMM educational institution.",
+      "source_file": "public/riwayat-mengajar/pmmm.png"
+    },
+    {
+      "id": "public_riwayat_mengajar_sbc",
+      "label": "Sukses Berkah Community Logo",
+      "_origin": "semantic",
+      "community": 33,
+      "file_type": "image",
+      "norm_label": "sukses berkah community logo",
+      "rationale": "Logo for the SSBC (Sukses Berkah Community).",
+      "source_file": "public/riwayat-mengajar/sbc.png"
+    },
+    {
       "id": "concept_kotagede_jewellery",
       "label": "Kotagede Jewellery",
+      "_origin": "semantic",
       "community": 7,
       "file_type": "concept",
       "norm_label": "kotagede jewellery",
@@ -2164,6 +2121,7 @@
     {
       "id": "concept_scale_up_masterclass",
       "label": "Scale Up Masterclass",
+      "_origin": "semantic",
       "community": 7,
       "file_type": "concept",
       "norm_label": "scale up masterclass",
@@ -2172,6 +2130,7 @@
     {
       "id": "public_brand_bisnis_hijaz",
       "label": "Hijaz Moslem Jewelry Logo",
+      "_origin": "semantic",
       "community": 7,
       "file_type": "image",
       "norm_label": "hijaz moslem jewelry logo",
@@ -2181,6 +2140,7 @@
     {
       "id": "public_kelas_kelas_2",
       "label": "Business Masterclass Presentation",
+      "_origin": "semantic",
       "community": 7,
       "file_type": "image",
       "norm_label": "business masterclass presentation",
@@ -2190,6 +2150,7 @@
     {
       "id": "public_kelas_kelas_5",
       "label": "Scale Up Masterclass Presentation",
+      "_origin": "semantic",
       "community": 7,
       "file_type": "image",
       "norm_label": "scale up masterclass presentation",
@@ -2199,6 +2160,7 @@
     {
       "id": "public_kelas_kelas_6",
       "label": "Educational Content Display",
+      "_origin": "semantic",
       "community": 7,
       "file_type": "image",
       "norm_label": "educational content display",
@@ -2208,11 +2170,89 @@
     {
       "id": "public_kelas_kelas_8",
       "label": "Superteam Presentation",
+      "_origin": "semantic",
       "community": 7,
       "file_type": "image",
       "norm_label": "superteam presentation",
       "rationale": "Speaker presenting 'Kotagede Jewellery Superteam' slide to an audience.",
       "source_file": "public/kelas/kelas-8.webp"
+    },
+    {
+      "id": "src_components_testimonials",
+      "label": "Testimonials Component",
+      "_origin": "semantic",
+      "community": 9,
+      "file_type": "code",
+      "norm_label": "testimonials component",
+      "source_file": "src/components/Testimonials.jsx"
+    },
+    {
+      "id": "dark_cinematic_luxury",
+      "label": "Dark Cinematic Luxury",
+      "_origin": "semantic",
+      "community": 9,
+      "file_type": "concept",
+      "norm_label": "dark cinematic luxury",
+      "rationale": "The overarching visual style and mood for the project.",
+      "source_file": "design-system/coach-joko/MASTER.md"
+    },
+    {
+      "id": "the_clarity_point",
+      "label": "The Clarity Point",
+      "_origin": "semantic",
+      "community": 9,
+      "file_type": "concept",
+      "norm_label": "the clarity point",
+      "rationale": "Core metaphor representing growth and direction.",
+      "source_file": "design-system/BRAND.md"
+    },
+    {
+      "id": "design_system_brand",
+      "label": "Brand Guidelines",
+      "_origin": "semantic",
+      "community": 9,
+      "file_type": "document",
+      "norm_label": "brand guidelines",
+      "rationale": "Primary source for brand strategy, visual identity, and core messaging.",
+      "source_file": "design-system/BRAND.md"
+    },
+    {
+      "id": "design_system_coach_joko_master",
+      "label": "Design System Master File",
+      "_origin": "semantic",
+      "community": 9,
+      "file_type": "document",
+      "norm_label": "design system master file",
+      "rationale": "Central authority for UI/UX rules, component mapping, and technical implementation details.",
+      "source_file": "design-system/coach-joko/MASTER.md"
+    },
+    {
+      "id": "public_brand_bisnis_lentera_bisnis_academy_brand",
+      "label": "Lentera Bisnis Academy",
+      "author": null,
+      "captured_at": null,
+      "community": 13,
+      "contributor": null,
+      "file_type": "concept",
+      "norm_label": "lentera bisnis academy",
+      "rationale": null,
+      "source_file": "public/brand-bisnis/lentera-bisnis-academy.png",
+      "source_location": null,
+      "source_url": null
+    },
+    {
+      "id": "public_brand_bisnis_lentera_bisnis_academy_png",
+      "label": "Lentera Bisnis Academy Logo",
+      "author": null,
+      "captured_at": null,
+      "community": 13,
+      "contributor": null,
+      "file_type": "image",
+      "norm_label": "lentera bisnis academy logo",
+      "rationale": "Logo for Lentera Bisnis Academy featuring a stylized figure wearing a graduation cap reaching for a star, positioned next to a bar chart, symbolizing educational and business growth.",
+      "source_file": "public/brand-bisnis/lentera-bisnis-academy.png",
+      "source_location": null,
+      "source_url": null
     }
   ],
   "links": [
@@ -3117,18 +3157,6 @@
       "weight": 1.0
     },
     {
-      "source": "src_components_nav",
-      "target": "src_components_logo_logo",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/Nav.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
       "source": "src_components_private",
       "target": "src_components_reveal_reveal",
       "relation": "imports",
@@ -3582,6 +3610,18 @@
       "context": "import",
       "source_file": "src/components/Nav.jsx",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_nav",
+      "target": "src_lib_useprefersreducedmotion",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Nav.jsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -4485,7 +4525,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Nav.jsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -4496,7 +4536,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Nav.jsx",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -4507,7 +4547,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Nav.jsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -5191,6 +5231,51 @@
       "source_file": "public/coach/photo.png"
     },
     {
+      "source": "public_kelas_kelas_2",
+      "target": "concept_scale_up_masterclass",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/kelas/kelas-2.webp"
+    },
+    {
+      "source": "public_kelas_kelas_5",
+      "target": "concept_scale_up_masterclass",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/kelas/kelas-5.webp"
+    },
+    {
+      "source": "public_kelas_kelas_6",
+      "target": "concept_scale_up_masterclass",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/kelas/kelas-6.webp"
+    },
+    {
+      "source": "public_kelas_kelas_8",
+      "target": "concept_kotagede_jewellery",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/kelas/kelas-8.webp"
+    },
+    {
+      "source": "public_kelas_kelas_8",
+      "target": "concept_scale_up_masterclass",
+      "relation": "references",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/kelas/kelas-8.webp"
+    },
+    {
       "source": "public_riwayat_mengajar_peta_mengajar_webp",
       "target": "riwayat_mengajar",
       "relation": "references",
@@ -5253,52 +5338,23 @@
       "source_file": "public/riwayat-mengajar/unair.png"
     },
     {
-      "source": "public_kelas_kelas_2",
-      "target": "concept_scale_up_masterclass",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/kelas/kelas-2.webp"
-    },
-    {
-      "source": "public_kelas_kelas_5",
-      "target": "concept_scale_up_masterclass",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/kelas/kelas-5.webp"
-    },
-    {
-      "source": "public_kelas_kelas_6",
-      "target": "concept_scale_up_masterclass",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/kelas/kelas-6.webp"
-    },
-    {
-      "source": "public_kelas_kelas_8",
-      "target": "concept_kotagede_jewellery",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/kelas/kelas-8.webp"
-    },
-    {
-      "source": "public_kelas_kelas_8",
-      "target": "concept_scale_up_masterclass",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/kelas/kelas-8.webp"
-    },
-    {
       "source": "public_brand_bisnis_hijaz",
       "target": "concept_kotagede_jewellery",
       "relation": "conceptually_related_to",
+      "_origin": "semantic",
       "confidence": "INFERRED",
       "confidence_score": 0.9,
       "source_file": "public/brand-bisnis/hijaz.png"
+    },
+    {
+      "source": "public_brand_bisnis_lentera_bisnis_academy_png",
+      "target": "public_brand_bisnis_lentera_bisnis_academy_brand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/brand-bisnis/lentera-bisnis-academy.png",
+      "source_location": null,
+      "weight": 1.0
     }
   ],
   "hyperedges": [
@@ -5356,5 +5412,5 @@
       "source_file": "public/yayasan.webp"
     }
   ],
-  "built_at_commit": "b94a437888bb608c5d32c1b6962ab03a04a9f06c"
+  "built_at_commit": "999bf34d4e0eeb41dc72477a81705a68801dcb0d"
 }

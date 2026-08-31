@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Logo from './Logo.jsx'
+import { gsap } from '../lib/gsap.js'
+import usePrefersReducedMotion from '../lib/usePrefersReducedMotion.js'
 
 const links = [
   { label: 'Tentang', href: '#tentang' },
@@ -18,14 +20,30 @@ export default function Nav() {
   const menuRef = useRef(null)
   const triggerRef = useRef(null)
   const prevOpen = useRef(false)
+  const [hidden, setHidden] = useState(false)
+  const lastY = useRef(0)
+  const reduced = usePrefersReducedMotion()
+  const headerRef = useRef(null)
 
   useEffect(() => {
     const onScroll = () => {
-      setScrolled(window.scrollY > 32)
+      const y = window.scrollY
+      setScrolled(y > 32)
+
+      if (!reduced) {
+        const delta = y - lastY.current
+        if (y <= 160 || delta < -8) {
+          setHidden(false)
+        } else if (delta > 8) {
+          setHidden(true)
+        }
+      }
+      lastY.current = y
+
       let current = 'top'
       for (const id of sectionIds) {
         const el = document.getElementById(id)
-        if (el && el.offsetTop <= window.scrollY + 160) {
+        if (el && el.offsetTop <= y + 160) {
           current = id
         }
       }
@@ -34,7 +52,22 @@ export default function Nav() {
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+  }, [reduced])
+
+  useEffect(() => {
+    if (!headerRef.current) return
+    if (reduced) {
+      gsap.set(headerRef.current, { yPercent: 0, autoAlpha: 1 })
+      return
+    }
+    gsap.to(headerRef.current, {
+      yPercent: hidden ? -110 : 0,
+      autoAlpha: hidden ? 0 : 1,
+      duration: 0.4,
+      ease: 'power3.out',
+      overwrite: 'auto',
+    })
+  }, [hidden, reduced])
 
   useEffect(() => {
     if (prevOpen.current && !open) {
@@ -77,7 +110,11 @@ export default function Nav() {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4 sm:pt-5">
+      <header
+        ref={headerRef}
+        inert={hidden && !open}
+        className="fixed inset-x-0 top-0 z-50 flex justify-center px-4 pt-4 sm:pt-5"
+      >
         <nav
           className={`flex w-full max-w-5xl items-center justify-between gap-3 rounded-full px-3 py-2 transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] ${
             scrolled
