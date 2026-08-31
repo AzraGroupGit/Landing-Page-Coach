@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import Logo from './Logo.jsx'
 import { gsap } from '../lib/gsap.js'
-import usePrefersReducedMotion from '../lib/usePrefersReducedMotion.js'
 
 const links = [
   { label: 'Tentang', href: '#tentang' },
@@ -22,7 +21,6 @@ export default function Nav() {
   const prevOpen = useRef(false)
   const [hidden, setHidden] = useState(false)
   const lastY = useRef(0)
-  const reduced = usePrefersReducedMotion()
   const headerRef = useRef(null)
 
   useEffect(() => {
@@ -30,13 +28,11 @@ export default function Nav() {
       const y = window.scrollY
       setScrolled(y > 32)
 
-      if (!reduced) {
-        const delta = y - lastY.current
-        if (y <= 160 || delta < -8) {
-          setHidden(false)
-        } else if (delta > 8) {
-          setHidden(true)
-        }
+      const delta = y - lastY.current
+      if (y <= 160 || delta < -8) {
+        setHidden(false)
+      } else if (delta > 8) {
+        setHidden(true)
       }
       lastY.current = y
 
@@ -52,22 +48,18 @@ export default function Nav() {
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
-  }, [reduced])
+  }, [])
 
   useEffect(() => {
     if (!headerRef.current) return
-    if (reduced) {
-      gsap.set(headerRef.current, { yPercent: 0, autoAlpha: 1 })
-      return
-    }
     gsap.to(headerRef.current, {
       yPercent: hidden ? -110 : 0,
       autoAlpha: hidden ? 0 : 1,
-      duration: 0.4,
+      duration: 0.5,
       ease: 'power3.out',
       overwrite: 'auto',
     })
-  }, [hidden, reduced])
+  }, [hidden])
 
   useEffect(() => {
     if (prevOpen.current && !open) {

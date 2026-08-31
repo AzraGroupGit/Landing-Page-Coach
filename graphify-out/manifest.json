@@ -54,10 +54,10 @@
     "semantic_hash": "3d60b868194a1298d9b7c292fef08746"
   },
   "src/components/Footer.jsx": {
-    "mtime": 1787818139.087883,
-    "seen": 1787825129.8487635,
-    "ast_hash": "bd44b69213f59c30d6400fe66deeb36f",
-    "semantic_hash": "bd44b69213f59c30d6400fe66deeb36f"
+    "mtime": 1788151820.1489778,
+    "seen": 1788161617.6876307,
+    "ast_hash": "06c1726bd21506064ab6ef720c5e5dba",
+    "semantic_hash": "06c1726bd21506064ab6ef720c5e5dba"
   },
   "src/components/Hero.jsx": {
     "mtime": 1787821836.859902,
@@ -78,10 +78,10 @@
     "semantic_hash": "4e16c6e96d266d2985a54ce16defb9d4"
   },
   "src/components/Nav.jsx": {
-    "mtime": 1788140322.439739,
-    "seen": 1788141500.5788853,
-    "ast_hash": "1f4e71485e747d095e5d5e285ac04262",
-    "semantic_hash": "1f4e71485e747d095e5d5e285ac04262"
+    "mtime": 1788161259.211044,
+    "seen": 1788161617.6876307,
+    "ast_hash": "8ae68feab2d16d72757441e2228a7d28",
+    "semantic_hash": "8ae68feab2d16d72757441e2228a7d28"
   },
   "src/components/Private.jsx": {
     "mtime": 1787822395.393183,
